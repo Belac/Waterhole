@@ -1,0 +1,72 @@
+.flexbox {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+p {
+    font-family: 'Open Sans', monospace;
+}
+
+span {
+    font-family: 'Open Sans', monospace;
+    vertical-align: center;
+}
+
+#header {
+    height: 5vh;
+    width: 100vw;
+    background-color: #A9D2DE;
+    justify-content: center;
+}
+
+#logobox {
+    height: 100%;
+    width: auto;
+    padding-top: 20px;
+}
+
+#logo {
+    height: 150%;
+    width: 150%;
+}
+
+#title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 20px;
+}
+
+#body {
+    height: 95vh;
+    width: 100vw;
+    background-image: url(resources/background.svg);
+    background-size: 100vw auto;
+}
+
+#qualitycheckbutton {
+    padding: 50px 50px 50px 50px;
+    color: white;
+    font-size: 350%;
+    background-color: #31ACD1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    height: 35vh;
+    width: 35vh;
+}
+
+#localtap {
+    font-family: 'Roboto Black',sans-serif;
+    font-weight: 600;
+}
+
+.light {
+    font-family: 'Roboto Light',sans-serif;
+    font-weight: 100;
+}
