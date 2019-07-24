@@ -23,10 +23,25 @@
         </div>
         <!--Body-->
         <div id="body" class="flexbox">
-            <div id="centre-text">
-                <div id="location"></div>
+            <div id="centre-text" class="flexbox">
+                <div id="liveinfo" class="flexbox">
+                    <div id="location">
+                        <span style="letter-spacing: 2.5px">LOCATION</span>
+                        <br /><span class="livetext"><b>no location data</b></span>
+                    </div>
+                    <div id="waterquality">
+                        <span style="letter-spacing: 2.5px">WATER QUALITY</span>
+                        <br /><span class="livetext">CLEANLINESS SCORE</span>
+                        <br /><span id="cleanliness" class="livetext"><b>no data available</b></span>
+                        <br /><span class="livetext">HARDNESS</span>
+                        <br /><span id="hardness" class="livetext"><b>no data available</b></span>
+                        <br /><span class="livetext">HARDNESS AVERAGE</span>
+                        <br /><span id="hardnessscore" class="livetext"><b>no data available</b></span>
+                        <br /><span class="livetext">RESULT</span>
+                        <br /><span id="result" class="livetext"><b>no data available</b></span>
+                    </div>
+                </div>
                 <div id="qualitycheckbutton"><span class="light">FIND<br/></span><span id="localtap"><b>LOCAL<br/>TAP<br/>WATER</b></span><span class="light"><br/>QUALITY</span></div>
-                <div id="waterquality"></div>
             </div>
         </div>
     </body>
